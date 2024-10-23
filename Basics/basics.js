@@ -26,7 +26,7 @@ ex- a=25
     name = "TONY STARK"
     typeof name = 'string' 
 
-NUMBER -> {2,-34,3.5,-54.7,0} are Validi.
+NUMBER -> {2,-34,3.5,-54.7,0} are Valid.
 
 Operations-> sum -> a+b
              sub -> a-b
@@ -63,6 +63,35 @@ const Keyword -> values of constants can not be changed with reassignment & they
 var Keyword -> to define variables.
               ex = var = 9;
               
+
+
+Assignment operator ->
+                     ex -  let age = age + 1; / let age += 1;
+                           let age = age - 1; / let age -= 1;
+                           let age = age * 1; / let age *= 1;
+                           let age = age / 1; / let age /= 1;
+                           let age = age % 1; / let age %= 1;
+                           
+
+Unary Operator ->  let age++; => increment
+                   let ++age; => decrement
+
+                Pre-increment (change , then use) 
+                ex- let age = 10;
+                    let newAge = ++age; ==> age = 11 & newAge = 11
+
+                Post-increment (use , then change) 
+                ex - let age = 10;
+                     let newAge = age++; ==> newAge = 10 & age = 11
+
+                     
+
+
+
+                   
+                           
+
+
 
 
 
