@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- LIST IN HTML -->
+
+     <!-- 1.UnOrdered List -->
+   <ul>
+    <li>Butter</li>
+    <li>Bread</li>
+    <li>Corn</li>
+    <li>Jam</li>
+   </ul>
+
+   <!-- 2.Ordered List -->
+   <ol>
+    <li>Bread</li>
+    <li>Butter</li>
+    <li>Cheez</li>
+    <li>Veggi</li>
+   </ol>
+
+
+
+   <!-- ANCHOR ELEMENT -->
+    <a href="https://google.com" >Google</a>
+
+    <!-- IMAGE ELEMENT -->
+     <img src="0_hDAyhnOx767w5qma.jpg" alt="WorkPlace">
+
+     <!-- BR TAG -->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Omnis consequuntur voluptas magnam saepe mollitia non?</p>
+
+      <!-- BOLD TAG -->
+       <b>Bold</b>
+
+       <!-- ITALIC TAG -->
+        <i>Italic</i>
+
+        <!-- UNDERLINE TAG -->
+         <u>UnderLine</u>
+
+
+         <!-- EXE.1
+         <h1>Pythagoras Theorem says a<sup>2</sup>+b<sup>2</sup>+2ab
+         </h1>
+
+         <h1>
+           Formula for glucose is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
+         </h1> -->
+      
+
+
+         HTML ENTITIES
+         <p>a &lt; b</p>
+         <p>a &gt; b</p>
+         <p>a &amp; b</p>
+         <p>a &quot;b&quot;</p>
+         <p> This is a &hearts;.</p>
+
+
+
+         <!-- TABLE -->
+          <table border="2">
+            <caption>Food Items</caption>
+           <thead>
+            <tr><td rowspan="2">Item</td>
+            <td colspan="2">price</td></tr>
+            <tr><td>INR</td>
+            <td>USD</td></tr>
+            
+           </thead>
+           <tbody>
+            <Tr>
+              <td>Frooti</td>
+              <td>10</td>
+              <td>0.14</td>
+            </Tr>
+            <Tr>
+              <td>Samosa</td>
+              <td>12</td>
+              <td>0.17</td>
+            </Tr>
+            <Tr>
+              <td>Chips</td>
+              <td>20</td>
+              <td>0.28</td>
+            </Tr>
+           </tbody>
+           <tfoot>
+            <tr><td colspan="2">Total in INR </td>
+            <td>42</td></tr>
+            
+           </tfoot>
+          </table>
+
+
+          <!-- Table 2 -->
+          <table border="black">
+            <caption>A Test table with merge cells </caption>
+            <thead>
+              <tr>
+                <td rowspan="2"></td>
+                <td colspan="2">Average</td>
+               
+                <td rowspan="2">Red Eyes</td>
+              </tr>
+              <tr>
+               
+                <td>Height</td>
+                <td>Weight</td>
+              
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+              </tr>
+              <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+
+          <form action="/action"> 
+            <div>
+              <label for="username">Enter Your Name :</label>
+              <input type="text" placeholder = "Username" id="username" name="username">
+            </div>
+            <div>
+              <label for = "password">Enter Your Password :</label>
+              <input type = "password" placeholder="Password" id = "password" name="password">
+            </div>
+            <div>
+              <label for="age">Enter Your Age :</label>
+              <input type="number" placeholder="Your Age" id="age" name="age">
+            </div>
+            <div>
+              <label for="age">Age 18+</label>
+              <input type = "checkbox" id="age" name = "age" >
+            </div>
+            <div>
+              <label for="fruit">Apple</label>
+              <input type="radio" id="fruit" name="fruit" value="Apple">
+              <label for="fruit">Mango</label>
+              <input type="radio" id="fruit" name="fruit" value="Mango">
+              <label for="fruit">Guava</label>
+              <input type="radio" id="fruit" name="fruit" value="Guava">
+            </div>
+
+          <div>
+            <label for="profession">Your profession :</label>
+            <select name="profession" id="profession">
+              <option value="stu">I am a Student</option>
+              <option value ="dev"> I am a Developer</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="vol">Valume :</label>
+            <input type="range" min="0" max ="100" id="vol" name="vol" value="40" step="10">
+          </div>
+
+          <div>
+            <label for="feedback">Please give your valuable feedback.</label>
+            <textarea name="feedback" id="feedback" rows="10" cols="50" placeholder="write your feedback here! "></textarea>
+          </div>
+            
+            <button>submit</button>
+            <button type = "submit">Submit</button> 
+            <button type = "reset">Reset</button>
+          </form>
+
+          
+          <!-- crate a search option that directs its search request to google. -->
+          <form action="https://www.google.com/search">
+            <label for = "google">Search in Google</label>
+            <input type="text" placeholder ="Search here" id ="goole" name = "q">
+            <button type="submit">Submit</button>
+          </form> 
+
+</body>
+</html>
