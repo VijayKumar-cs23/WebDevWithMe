@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+
+}
+#container{
+    height: 500px;
+    border: 2px solid black;
+    margin: 10px auto;
+
+    display: flex;
+    flex-direction:row-reverse ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+#container div{
+    height: 200px;
+    width: 300px;
+}

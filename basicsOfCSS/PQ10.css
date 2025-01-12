@@ -1,0 +1,53 @@
+h3{
+    color: red;
+}
+span{
+    color: green;
+}
+
+.card{
+    margin: 10px;
+    height:400px;
+    width:300px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px;
+}
+#img1{
+
+width:296px;
+border-radius:10px 10px 0 0 ;
+
+}
+#img2{
+
+width:296px ;
+
+border-radius: 10px 10px 0 0;
+}
+.cardhead{
+    color: crimson;
+}
+.card>div{
+    
+    text-align: justify;
+    padding-top: 5px;
+}
+.card>div>p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+}
+#footer>h4{
+    color: burlywood;
+    font-style: italic;
+    font-size: 400;
+}
+#newcard{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:375px){
+    #newcard{
+        flex-wrap: wrap;
+    }
+}

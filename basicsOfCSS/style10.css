@@ -1,0 +1,74 @@
+/* .container{
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    border: 2px solid black;
+    
+    display: grid;
+     grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px; 
+
+    grid-template-rows: repat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+
+}
+.item{
+    width: 100px;
+    height: 20px;
+    background-color: brown;
+    border: 2px solid black;
+    
+}
+
+.item5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+
+
+
+
+
+
+
+/* Animatoin */
+/* .box{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    
+
+    animation-name:MyAnimation;
+    animation-duration:1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes MyAnimation{
+    from{font-size:30px;
+         color: white;
+        background-color: aqua;}
+    to{font-size:40px;
+       color:Red;
+    background-color: brown;}
+} */
+
+
+
+
+
+/* MediaQueries */
+h1{
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+@media(width:400px){
+    h1{
+        background-color: red;
+        color: white;
+    }
+}
