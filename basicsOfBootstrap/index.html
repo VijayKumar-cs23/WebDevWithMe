@@ -9,9 +9,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button>Click me</button>
+    <!-- <button>Click me</button>
     <button class="btn btn-danger">Click me</button>
+    <button class="btn btn-warning">click me</button>
+    <button class="btn btn-dark">click me</button>
+    <button class="btn btn-outline-danger">Click me</button>
+    <button class="btn btn-outline-warning">click me</button>
+    <button class="btn btn-outline-dark">click me</button>
+    <hr>
+    <button class="btn btn-warning btn-lg">click me</button>
+    <button class="btn btn-dark btn-lg">click me</button>
+    <button class="btn btn-outline-danger btn-sm">Click me</button>
 
+    <button class="btn btn-outline-warning btn-sm" desabled >click me</button>
     <div class="container">
         <h3>bootstrap Demo</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis quia debitis dolor necessitatibus soluta voluptates molestiae aliquid molestias? Numquam quis quam aut vitae, minus assumenda perferendis. Eum, nemo aspernatur.
@@ -26,7 +36,133 @@
         Numquam at mollitia debitis, distinctio expedita atque eum natus similique assumenda provident totam consectetur repellat perferendis doloribus, fugiat accusantium laudantium. Impedit sit at aspernatur ut minima natus libero voluptates alias!
         Unde vel obcaecati explicabo quo officia officiis quam accusamus odit beatae excepturi rerum assumenda, quia numquam dolores cum nulla nostrum aliquid, iure est commodi sit id atque quos. Veniam, ratione.
         Sint amet enim quisquam quos tempore molestias distinctio. Ipsam ratione nostrum debitis. Omnis, corrupti assumenda perspiciatis harum rem consequatur qui vel alias quas repudiandae, similique quos quo non facilis praesentium.</p>
+
     </div>
+
+
+    <hr>
+    <h3>badges demo</h3>
+    <span class="badge bg-primary">new</span>
+    <h3>notifications <span class="badge bg-primary">30+</span></h3>
+
+    <button class="btn btn-danger">Followers
+        <span class="badge bg-success">1M+</span>
+    </button>
+    <button class="btn btn-danger rounded-pill">Followers
+        <span class="badge bg-success rounded-pill">1M+</span>
+    </button>
+
+    <hr>
+    <h3>Alert demo</h3>
+    <div class="alert alert-danger">Download failed! please try again.</div>
+    <div class="alert alert-success " role="alert">Congratulations! You have scored 50/50.</div> 
+
+    <div class="alert alert-success alert-dismissible ">Congratulations! You have scored 50/50.
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    
+
+    <hr>
+    <div class="btn-group">
+        <button class="btn btn-primary">Left </button>
+        <button class="btn btn-primary">Middle </button>
+        <button class="btn btn-primary">Right</button>
+    </div> -->
+
+    <hr>
+    <nav class="navbar bg-body-tertiary navbar-expand-lg fixed-top" >
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Brand Name</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>
+            <div class="navbar-nav">
+                <a class="nav-link" href="">Home</a>
+                <a class="nav-link" href="">Login</a>
+                <a class="nav-link" href="">About</a>
+                <a class="nav-link disabled" href="">contact us</a>
+            </div>
+
+        </div>
+       
+    </nav>
+
+
+    <div class="card" style="width: 18rem; ">
+        <img src="Boy_child_kid_school_boy_student-512.webp" class="card-img-top"   alt="boy">
+        <div class="card-body">
+            <h5 class="card-title" >Card Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perspiciatis sapiente voluptatem vel quas.</p>
+            <a href="#" class="btn btn-primary">Go Somewhere</a>
+        </div> 
+    </div>
+
+
+
+    <div class="container">
+        <h5>Grid System</h5>
+        <div class="row">
+            <div class="col-6 bg-danger" >one</div>
+            <div class="col-6 bg-success">two</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-2 bg-danger" >one</div>
+            <div class="col-md-8 bg-success">two</div>
+            <div class="col-md-2 bg-danger">two</div>
+        </div>
+        <br>
+        <div class="row  align-items-end" >
+            <div class="col bg-danger" >one Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ad.</div>
+            <div class="col bg-success">two Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae officiis nam iure!</div>
+            <div class="col bg-danger">two Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, labore qui! Enim ipsum veritatis eaque quibusdam soluta voluptatem excepturi voluptas.</div>
+            <div class="col bg-warning align-self-start">two Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam expedita omnis repellendus!</div>
+
+        </div>
+
+
+
+
+        <div class="container">
+            <h4>form demo</h4>
+            <form class="mb-3">
+                <div>
+                    <label for="form" class="form-label">Email</label>
+                <input type="text" id="form" placeholder="email" class="form-control" >
+                </div>
+                <div>
+                    <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" placeholder="password" class="form-control-lg" >
+                </div>
+
+                <div class="mb-3">
+                    <select class="form-select">
+                        <option selected disabled>choose your city</option>
+                        <option value="1">mumbai</option>
+                        <option value="2">pune</option>
+                        <option value="3">goa</option>
+                        <option value="4">up</option>
+                    </select>
+                </div>
+
+
+
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="check">
+                    <label for="check" class="form-check-label">Agree</label>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   
 </body>
 </html>
