@@ -174,6 +174,10 @@
 
 // More Events:
 
+//CHANGE EVENT: The change event occurs when the value of an element has been changed.(only works on <input>,<textarea> and <select> element)
+//INPUT EVENT: The input event fires when the value of an <input>,<select> or Mtextarea> element has changed.
+
+
 
 
 

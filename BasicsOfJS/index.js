@@ -18,7 +18,7 @@
 
 
 // let cars = ["audi","maruti","volvo"];
-// cars.push("toyota")
+// cars.push("toyota");
 // console.log(cars);
 // cars.pop();
 // console.log(cars);
