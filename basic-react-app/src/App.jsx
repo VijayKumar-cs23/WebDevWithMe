@@ -1,38 +1,46 @@
-import Button from "./components/Button";
-import UserCard from "./components/UserCard";
+import "./App.css"
+import Title from "./Titile.jsx"
+import ProductTab from "./ProductTab.jsx"
+import Button from "./Button.jsx"
+
+
+// //creating new Component and rendering to another component. two ways to render 1. <Title></Title>  or <Title/>
+
+
+// function Description(){
+//    return (
+//     <div>
+//         <h2>I am the description 1</h2>
+//         <h3>I am the description 2</h3>
+//     </div>
+//    )
+// }
+
+// function App() {
+//   return (
+//     <>
+//       <h1>HelloWorld!</h1>
+       
+//        <Title></Title>
+//        <Description/>
+//       <Title/>
+
+//       <button>ClickHere!</button>
+//     </>
+//   )
+// }
+
+// export default App
+
+
 
 function App() {
-  const handleLogin = () => {
-    alert("Login clicked");
-  };
-
   return (
-    <div>
-      <h1>Component Reusability</h1>
-
-      <UserCard
-        name="Vijay"
-        role="Java Full Stack Developer"
-        email="vijay@gmail.com"
-      />
-
-      <UserCard
-        name="Rahul"
-        role="React Developer"
-        email="rahul@gmail.com"
-      />
-
-      <UserCard
-        name="Aman"
-        role="Backend Developer"
-        email="aman@gmail.com"
-      />
-
-      <Button text="Login" onClick={handleLogin} />
-      <Button text="Register" />
-      <Button text="Logout" />
-    </div>
-  );
+    <>
+    {/* <ProductTab/> */}
+    <Button/>
+    </>
+  )
 }
 
-export default App;
+export default App
