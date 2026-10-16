@@ -2,6 +2,8 @@ import "./App.css"
 import Title from "./Titile.jsx"
 import ProductTab from "./ProductTab.jsx"
 import Button from "./Button.jsx"
+import Counter from "./Counter" 
+import LikeButton from "./LikeButton.jsx"
 
 
 // //creating new Component and rendering to another component. two ways to render 1. <Title></Title>  or <Title/>
@@ -38,7 +40,9 @@ function App() {
   return (
     <>
     {/* <ProductTab/> */}
-    <Button/>
+    {/* <Button/> */}
+    {/* <Counter/> */}
+    <LikeButton/>
     </>
   )
 }
