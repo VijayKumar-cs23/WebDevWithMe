@@ -4,13 +4,15 @@ import ArrayAndState from "./components/ArrayAndState";
 import ToDoList from "./components/ToDoList";
 import UniqueIdForList from "./components/UniqueIdForList";
 import DeletionInArray from"./components/DeletionInArray";
+import Updation from "./components/Updation";
+import MarkDone from "./components/MarkDone";
 
 
 
 function App() {
   return (
     <>
-    <DeletionInArray/>
+    <MarkDone/>
     </>
   )
 }
